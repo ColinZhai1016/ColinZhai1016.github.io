@@ -1,0 +1,121 @@
+/* A small listening shelf, using the portfolio's type and original green. */
+.music-page { background: #fafbf7; }
+.music-main { padding-top: clamp(112px, 8vw, 128px); }
+.music-introduction { display: grid; grid-template-columns: 1.2fr 1fr; align-items: end; gap: 48px; padding-bottom: 56px; }
+.music-eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; color: #69745f; font-size: 11px; line-height: 1.5; letter-spacing: .12em; text-transform: uppercase; }
+.music-eyebrow::before { content: ""; width: 7px; height: 7px; flex-shrink: 0; border-radius: 50%; background: #8fa82e; }
+.music-title { font: 400 clamp(62px, 7.2vw, 104px)/.99 "Source Serif Pro", Georgia, serif; letter-spacing: -.06em; }
+.music-title em { color: #7a866d; font-weight: 400; }
+.music-intro-copy { max-width: 40ch; justify-self: end; padding-bottom: 5px; color: #5c6555; font-size: clamp(16px, 1.35vw, 19px); line-height: 1.85; letter-spacing: -.02em; }
+.music-shelf { --record-width: clamp(290px, 31vw, 404px); --record-gap: clamp(16px, 1.8vw, 28px); border-top: 1px solid var(--line); }
+.music-shelf-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; padding-top: 27px; padding-bottom: 6px; }
+.music-shelf-heading h2 { font-size: 12px; font-weight: 400; letter-spacing: -.015em; }
+.music-shelf-heading > p { color: #77816d; font-size: 11px; line-height: 1.6; }
+.music-track { display: flex; align-items: start; gap: var(--record-gap); width: min(1224px, calc(100% - var(--gutter) * 2)); margin-inline: auto; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: 0; padding: 28px 0 25px; scrollbar-width: thin; scrollbar-color: #c9d0c0 transparent; touch-action: pan-x pan-y pinch-zoom; cursor: grab; outline-offset: -5px; }
+.music-track:focus-visible { outline: 2px solid #829837; border-radius: 12px; }
+.music-track::-webkit-scrollbar { height: 4px; }
+.music-track::-webkit-scrollbar-thumb { border-radius: 4px; background: #c9d0c0; }
+.music-track.is-dragging { cursor: grabbing; user-select: none; -webkit-user-select: none; }
+.is-enhanced .music-track::before, .is-enhanced .music-track::after {
+  content: "";
+  flex: 0 0 max(0px, calc((100% - var(--record-width)) / 2 - var(--record-gap)));
+}
+.music-record { flex: 0 0 var(--record-width); min-width: 0; scroll-snap-align: center; scroll-snap-stop: always; }
+.music-artwork { overflow: hidden; width: 100%; aspect-ratio: 4 / 5; background: var(--record-color, #192b28); border: 1px solid #1920170d; border-radius: 19px; box-shadow: 0 10px 22px #1920170b; }
+.music-artwork img { width: 100%; height: 100%; object-fit: contain; user-select: none; -webkit-user-select: none; -webkit-user-drag: none; }
+.music-record figcaption { display: flex; align-items: start; gap: 20px; padding: 21px 3px 0; }
+.is-enhanced .music-record { position: relative; z-index: 0; }
+.is-enhanced .music-record:is(.is-before, .is-after) { z-index: 1; }
+.is-enhanced .music-record.is-active { z-index: 2; }
+.is-enhanced .music-artwork {
+  transform: translateY(10px) scale(.90);
+  filter: blur(1.6px) saturate(.85);
+  opacity: .67;
+  transition: transform .32s cubic-bezier(.2,.7,.25,1), filter .28s ease, opacity .28s ease, box-shadow .32s ease;
+}
+.is-enhanced .is-active .music-artwork {
+  transform: translateY(-7px) scale(1.04);
+  filter: none;
+  opacity: 1;
+  box-shadow: 0 12px 26px #19201725;
+}
+.is-enhanced .music-record figcaption { opacity: .50; transition: opacity .24s ease; }
+.is-enhanced .music-record.is-active figcaption { opacity: 1; }
+.record-index { flex-shrink: 0; padding-top: 4px; color: #87927b; font-size: 10px; font-variant-numeric: tabular-nums; }
+.record-title { font: 400 clamp(21px, 2.1vw, 28px)/1.2 "Source Serif Pro", Georgia, serif; letter-spacing: -.035em; overflow-wrap: anywhere; }
+.record-artist { margin-top: 6px; color: #6b7562; font-size: 12px; line-height: 1.7; }
+.record-caption-note { max-width: 40ch; margin-top: 8px; color: #5c6555; font-size: 12px; line-height: 1.65; }
+.is-enhanced .music-record:not(.is-active) .record-caption-note { display: none; }
+.is-enhanced .music-record.is-active .record-caption-note { min-height: 3.3em; }
+.music-controls { display: none; justify-content: space-between; align-items: center; gap: 24px; padding-top: 27px; padding-bottom: 34px; }
+.is-enhanced .music-controls { display: flex; }
+.music-counter { color: #8a947e; font-size: 12px; font-variant-numeric: tabular-nums; letter-spacing: .06em; }
+.music-counter [data-music-current] { color: var(--black); }
+.music-counter .counter-separator { padding-inline: 9px; color: #b0b8a6; }
+.music-arrow-group { display: flex; gap: 9px; }
+.music-arrow { display: grid; place-items: center; width: 46px; height: 46px; border: 1px solid #d9dfd1; border-radius: 50%; background: transparent; font-size: 21px; transition: background .2s ease, border-color .2s ease; }
+.music-arrow:hover:not(:disabled) { background: var(--green); border-color: var(--green); }
+.music-arrow:disabled { opacity: .3; cursor: default; }
+.music-reflection { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; padding-top: 47px; padding-bottom: 18px; border-top: 1px solid var(--line); }
+.music-reflection h2 { max-width: 17ch; font: 400 clamp(29px, 3vw, 42px)/1.18 "Source Serif Pro", Georgia, serif; letter-spacing: -.04em; }
+.music-reflection > div { max-width: 40ch; justify-self: end; color: #69725f; font-size: 14px; line-height: 1.85; }
+.music-reflection .text-link { margin-top: 20px; font-size: 12px; color: var(--black); }
+.music-footer { margin-top: 70px; }
+.music-back-link { display: inline-flex; align-items: center; gap: 12px; color: #66745a; font-size: 12px; }
+.music-back-link:hover { color: var(--black); }
+.music-back-link span { transition: transform .2s ease; }
+.music-back-link:hover span { transform: translateX(-3px); }
+.music-mobile-hint { display: none; }
+.music-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@media (max-width: 760px) {
+  .music-main { padding-top: 100px; }
+  .music-introduction { grid-template-columns: 1fr; gap: 26px; padding-bottom: 38px; }
+  .music-eyebrow { margin-bottom: 16px; }
+  .music-title { font-size: clamp(58px, 12.2vw, 86px); }
+  .music-intro-copy { justify-self: start; max-width: 36ch; font-size: 16px; line-height: 1.8; }
+  .music-shelf { --record-width: min(58vw, 360px); --record-gap: clamp(12px, 3.4vw, 18px); }
+  .music-shelf-heading { gap: 15px; padding-top: 22px; }
+  .music-shelf-heading h2 { font-size: 11px; }
+  .music-shelf-heading > p { font-size: 10px; }
+  .music-desktop-hint { display: none; }
+  .music-mobile-hint { display: inline; }
+  .music-track { padding-block: 23px 20px; }
+  .music-artwork { border-radius: 15px; }
+  .music-record figcaption { gap: 15px; padding-top: 17px; }
+  .is-enhanced .music-record:not(.is-active) figcaption { opacity: 0; }
+  .record-title { font-size: clamp(21px, 5.2vw, 27px); }
+  .record-artist { font-size: 11px; }
+  .is-enhanced .music-record.is-active .record-caption-note { min-height: 6.6em; }
+  .music-controls { padding-top: 18px; padding-bottom: 27px; }
+  .music-arrow { width: 43px; height: 43px; }
+  .music-reflection { grid-template-columns: 1fr; gap: 22px; padding-top: 33px; }
+  .music-reflection h2 { max-width: 19ch; font-size: 32px; }
+  .music-reflection > div { justify-self: start; max-width: 39ch; }
+  .music-footer { display: flex; margin-top: 46px; gap: 25px; }
+  html:not(.js) .music-main { padding-top: 200px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .music-artwork, .music-record figcaption, .music-arrow, .music-back-link span { transition: none !important; }
+}
+
+/* The gallery surfaces follow the site theme while the artwork keeps its colors. */
+:root[data-theme="dark"] .music-page { background: var(--theme-canvas); }
+:root[data-theme="dark"] :is(
+  .music-eyebrow, .music-title em, .music-intro-copy, .music-shelf-heading > p,
+  .record-index, .record-artist, .record-caption-note, .music-counter,
+  .music-reflection > div, .music-back-link
+) { color: var(--muted); }
+:root[data-theme="dark"] :is(.music-counter [data-music-current], .music-reflection .text-link) { color: var(--theme-text); }
+:root[data-theme="dark"] .music-counter .counter-separator { color: #82927e; }
+:root[data-theme="dark"] .music-eyebrow::before { background: var(--green); }
+:root[data-theme="dark"] .music-track { scrollbar-color: #526650 transparent; }
+:root[data-theme="dark"] .music-track::-webkit-scrollbar-thumb { background: #526650; }
+:root[data-theme="dark"] .music-track:focus-visible { outline-color: var(--green); }
+:root[data-theme="dark"] .music-artwork { border-color: #edf2e826; }
+:root[data-theme="dark"] .is-enhanced .is-active .music-artwork { box-shadow: 0 12px 26px #0006; }
+:root[data-theme="dark"] .music-arrow { border-color: var(--theme-control-border); }
+:root[data-theme="dark"] .music-arrow:hover:not(:disabled) {
+  border-color: var(--green);
+  color: var(--black);
+}
+:root[data-theme="dark"] :is(.music-back-link:hover, .music-reflection .text-link:hover) { color: var(--green); }

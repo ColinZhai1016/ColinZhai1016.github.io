@@ -1,0 +1,28 @@
+.site-header { gap: 8px; }
+.site-navigation { margin-inline-start: auto; }
+.header-actions { display: flex; align-items: center; flex: 0 0 auto; gap: 8px; }
+.language-toggle, .theme-toggle { display: inline-flex; align-items: center; gap: 2px; padding: 4px; min-height: 34px; border: 1px solid #7a866d30; border-radius: 999px; background: #ffffff48; color: inherit; white-space: nowrap; }
+.language-toggle[hidden] { display: none; }
+.language-toggle .language-choice { display: grid; place-items: center; min-width: 25px; height: 24px; padding-inline: 4px; border-radius: 999px; font-size: 11px; line-height: 1; }
+.language-toggle .language-divider { opacity: .43; font-size: 10px; }
+.language-toggle[data-current-language="zh"] .language-choice[lang="zh-CN"],
+.language-toggle[data-current-language="en"] .language-choice[lang="en"] { background: var(--green); color: var(--black); font-weight: 700; }
+.theme-toggle svg { display: block; width: 24px; height: 24px; padding: 4px; border-radius: 50%; background: var(--green); color: var(--black); }
+.theme-toggle .theme-moon, :root[data-theme="dark"] .theme-toggle .theme-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .theme-moon { display: block; }
+.language-toggle:hover, .theme-toggle:hover { background: #ffffffa1; }
+.is-over-dark :is(.language-toggle, .theme-toggle),
+:root[data-theme="dark"] :is(.language-toggle, .theme-toggle) { border-color: #ffffff2e; background: #ffffff12; color: #f5f8f2; }
+.is-over-dark :is(.language-toggle, .theme-toggle):hover,
+:root[data-theme="dark"] :is(.language-toggle, .theme-toggle):hover { background: #ffffff27; }
+html:lang(zh-CN) { font-family: "Inter", "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }
+html:lang(zh-CN) .music-title { font-family: "Source Serif Pro", "Songti SC", "Noto Serif CJK SC", serif; letter-spacing: -.035em; }
+@media (min-width: 761px) and (max-width: 950px) {
+  .site-brand { flex-shrink: 0; }
+  .site-navigation a { padding-inline: 10px; }
+}
+@media (max-width: 760px) {
+  .site-navigation { margin-inline-start: 0; }
+  .header-actions { gap: 7px; }
+  html:not(.js) .header-actions { display: none; }
+}

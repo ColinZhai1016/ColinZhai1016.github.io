@@ -1,0 +1,54 @@
+/* Native cursors stay precisely under the pointer, including inside dialogs. */
+@media (hover: hover) and (pointer: fine) {
+  :root {
+    --cursor-ball: url("assets/cursors/ball.svg?v=solid") 10 10, default;
+    --cursor-link: url("assets/cursors/link.svg") 16 16, pointer;
+    --cursor-click: url("assets/cursors/click.svg") 16 16, pointer;
+    --cursor-info: url("assets/cursors/info.svg") 16 16, pointer;
+    --cursor-copy: url("assets/cursors/copy.svg") 16 16, pointer;
+    --cursor-zoom: url("assets/cursors/zoom.svg") 16 16, zoom-in;
+    --cursor-drag-x: url("assets/cursors/drag-x.svg") 16 16, ew-resize;
+    --cursor-drag-y: url("assets/cursors/drag-y.svg") 16 16, ns-resize;
+    --cursor-dragging: url("assets/cursors/dragging.svg") 16 16, grabbing;
+    --cursor-previous: url("assets/cursors/previous.svg") 16 16, pointer;
+    --cursor-next: url("assets/cursors/next.svg") 16 16, pointer;
+    --cursor-close: url("assets/cursors/close.svg") 16 16, pointer;
+    --cursor-email: url("assets/cursors/email.svg") 16 16, pointer;
+    --cursor-menu: url("assets/cursors/menu.svg") 16 16, pointer;
+  }
+
+  html, body {
+    --site-cursor: var(--cursor-ball);
+    cursor: var(--site-cursor);
+  }
+
+  /* Inherit the action through nested images and the interest-card overlays. */
+  body *, body *::before, body *::after {
+    cursor: var(--site-cursor) !important;
+  }
+
+  button, summary, [role="button"] { --site-cursor: var(--cursor-click); }
+  a[href] { --site-cursor: var(--cursor-link); }
+  [data-interest-toggle] { --site-cursor: var(--cursor-info); }
+  [data-copy-email] { --site-cursor: var(--cursor-copy); }
+  a[href^="mailto:"] { --site-cursor: var(--cursor-email); }
+  a[data-photo], [data-open-gallery], .help-photo a { --site-cursor: var(--cursor-zoom); }
+  [data-tennis-ball] { --site-cursor: var(--cursor-drag-y); }
+  [data-music-track], [data-travel-track] { --site-cursor: var(--cursor-drag-x); }
+  [data-kind="photo"] [data-travel-open] { --site-cursor: var(--cursor-zoom); }
+  .is-enhanced :where([data-music-record]:not(.is-active), [data-travel-item]:not(.is-active)),
+  .is-enhanced :where([data-travel-item]:not(.is-active)) [data-travel-open] { --site-cursor: var(--cursor-click); }
+  [data-tennis-ball].is-dragging, [data-music-track].is-dragging, [data-music-track].is-dragging * { --site-cursor: var(--cursor-dragging); }
+  [data-travel-track].is-dragging, [data-travel-track].is-dragging * { --site-cursor: var(--cursor-dragging); }
+  [data-gallery-prev], [data-music-prev], [data-travel-prev], [data-travel-dialog-prev] { --site-cursor: var(--cursor-previous); }
+  [data-gallery-next], [data-music-next], [data-travel-next], [data-travel-dialog-next] { --site-cursor: var(--cursor-next); }
+  [data-menu-toggle] { --site-cursor: var(--cursor-menu); }
+  [data-gallery-close], [data-travel-close], [data-menu-toggle][aria-expanded="true"] { --site-cursor: var(--cursor-close); }
+  input, textarea, [contenteditable=""], [contenteditable="true"] { --site-cursor: text; }
+  input[type="button"], input[type="submit"], input[type="reset"], input[type="checkbox"], input[type="radio"], select { --site-cursor: var(--cursor-click); }
+  button:disabled, input:disabled, [aria-disabled="true"], [inert] { --site-cursor: var(--cursor-ball); }
+
+  .gallery-dialog::backdrop, .travel-dialog::backdrop {
+    cursor: url("assets/cursors/close.svg") 16 16, pointer;
+  }
+}

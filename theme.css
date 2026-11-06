@@ -1,0 +1,118 @@
+/* Dark colors for the shared shell and homepage. */
+:root[data-theme="dark"] {
+  --theme-canvas-rgb: 17 24 18;
+  --theme-canvas: rgb(var(--theme-canvas-rgb));
+  --theme-surface: #1b261c;
+  --theme-text: #edf2e8;
+  --theme-control-border: #4b5e48;
+  --muted: #aebca8;
+  --line: #2d3d2e;
+  background: var(--theme-canvas);
+  color: var(--theme-text);
+  color-scheme: dark;
+}
+
+:root[data-theme="dark"] :is(a, button):focus-visible { outline-color: var(--green); }
+:root[data-theme="dark"] .skip-navigation { color: var(--black); }
+
+:root[data-theme="dark"] .site-header {
+  border-color: #b9ccad38;
+  background: linear-gradient(135deg, #f1ffe916, #f1ffe903 55%, #f1ffe90b), rgb(17 25 18 / .84);
+  color: var(--theme-text);
+  box-shadow: inset 0 1px 0 #f1ffe920, 0 8px 28px #0005;
+}
+:root[data-theme="dark"] .site-header.is-scrolled { background-color: rgb(17 25 18 / .94); }
+:root[data-theme="dark"] .site-header .site-navigation a { color: #d7e2d1; }
+:root[data-theme="dark"] .site-header .site-navigation a:is(:hover, .is-current) {
+  background: #e2efd21a;
+  color: var(--theme-text);
+}
+:root[data-theme="dark"] .site-header .site-navigation .nav-contact {
+  background: #e2efd218;
+  color: var(--theme-text);
+  box-shadow: inset 0 0 0 1px #e2efd235;
+}
+:root[data-theme="dark"] .site-header .site-navigation .nav-contact:is(:hover, .is-current) {
+  background: var(--green);
+  color: var(--black);
+}
+
+@media (max-width: 760px) {
+  :root[data-theme="dark"] .site-header .menu-button {
+    background: #e2efd218;
+    box-shadow: inset 0 0 0 1px #e2efd22a;
+  }
+  :root[data-theme="dark"] .site-header .menu-button span { background: var(--theme-text); }
+  :root[data-theme="dark"].js .site-header .site-navigation {
+    border-color: #b9ccad38;
+    background: rgb(23 34 24 / .94);
+    box-shadow: inset 0 1px 0 #f1ffe920, 0 10px 30px #0005;
+  }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root[data-theme="dark"] .site-header { background: var(--theme-canvas); }
+  @media (max-width: 760px) {
+    :root[data-theme="dark"].js .site-header .site-navigation { background: var(--theme-surface); }
+  }
+}
+
+/* Follow the existing photo fade into the selected page canvas. */
+:root[data-theme="dark"] .cover::after {
+  background: linear-gradient(to bottom,
+    rgb(var(--theme-canvas-rgb) / 0) 0%,
+    rgb(var(--theme-canvas-rgb) / .06) 18%,
+    rgb(var(--theme-canvas-rgb) / .24) 40%,
+    rgb(var(--theme-canvas-rgb) / .52) 62%,
+    rgb(var(--theme-canvas-rgb) / .84) 83%,
+    var(--theme-canvas) 100%);
+}
+
+:root[data-theme="dark"] :is(.greeting, .biography, .about-description > p, .section-heading h2 em, .help-copy > p, .copy-status) {
+  color: var(--muted);
+}
+:root[data-theme="dark"] .text-link { border-bottom-color: var(--theme-control-border); }
+:root[data-theme="dark"] .portrait-frame { background: var(--theme-surface); }
+:root[data-theme="dark"] .view-work {
+  border-color: var(--theme-control-border);
+  background: var(--theme-surface);
+  color: var(--theme-text);
+}
+:root[data-theme="dark"] .view-work:hover {
+  border-color: var(--green);
+  background: var(--green);
+  color: var(--black);
+}
+
+:root[data-theme="dark"] .interest-card::before {
+  border: 1px solid #425534;
+  background: #283820;
+}
+:root[data-theme="dark"] .interest-card h3 { color: #e3f0d4; }
+:root[data-theme="dark"] .interest-page-link > span { color: var(--green); }
+:root[data-theme="dark"] .interest-toggle:focus-visible::after { outline-color: var(--green); }
+:root[data-theme="dark"] .interest-description {
+  border-color: #adc79955;
+  background: rgb(27 38 28 / .95);
+  color: var(--theme-text);
+  box-shadow: 0 8px 24px #0005;
+}
+
+:root[data-theme="dark"] :is(.tennis-project, .aim-range) { box-shadow: inset 0 0 0 1px var(--line); }
+:root[data-theme="dark"] .tennis-moment {
+  border-color: #738a6a;
+  background: #263429;
+  color: var(--theme-text);
+}
+:root[data-theme="dark"] :is(.footer-signature > span, .contact-email span) { color: var(--green); }
+:root[data-theme="dark"] .copy-email {
+  border-color: var(--theme-control-border);
+  background: var(--theme-surface);
+  color: var(--theme-text);
+}
+:root[data-theme="dark"] .copy-email:hover { background: #283820; }
+:root[data-theme="dark"] .copy-email:target {
+  border-color: var(--green);
+  background: var(--green);
+  color: var(--black);
+}
