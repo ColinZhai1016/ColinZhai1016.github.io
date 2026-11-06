@@ -1,0 +1,842 @@
+{
+  "items": [
+    {
+      "id": "photo-002",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-002-thumb.webp",
+      "width": 1000,
+      "height": 750,
+      "cities": [
+        "amsterdam"
+      ],
+      "cityNames": [
+        "Amsterdam"
+      ],
+      "title": "Along the canal",
+      "alt": "A brick bridge and stepped-gable buildings beside a canal.",
+      "sourceWidth": 5712,
+      "sourceHeight": 4284,
+      "fullSrc": "assets/travel/photos/photo-002.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "amsterdam"
+      ],
+      "cityLabel": "Amsterdam",
+      "sourceFiles": [
+        "阿姆斯特丹/图片/0a3d2043b57edeff75886e9b447eae4c.JPG"
+      ]
+    },
+    {
+      "id": "photo-021",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-021-thumb.webp",
+      "width": 750,
+      "height": 1000,
+      "cities": [
+        "cologne"
+      ],
+      "cityNames": [
+        "Cologne"
+      ],
+      "title": "Twin spires",
+      "alt": "The ornate front facade and twin spires of a cathedral.",
+      "sourceWidth": 3024,
+      "sourceHeight": 4032,
+      "fullSrc": "assets/travel/photos/photo-021.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "cologne"
+      ],
+      "cityLabel": "Cologne",
+      "sourceFiles": [
+        "科隆/图片/1ddbd269d1fae967aa609a5098d31f6d.JPG"
+      ]
+    },
+    {
+      "id": "photo-053",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-053.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "koblenz"
+      ],
+      "cityNames": [
+        "Koblenz"
+      ],
+      "title": "Where rivers meet",
+      "alt": "An elevated view of converging rivers, bridges and a riverside monument.",
+      "sourceWidth": 3855,
+      "sourceHeight": 2891,
+      "fullSrc": "assets/travel/photos/photo-053.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "koblenz"
+      ],
+      "cityLabel": "Koblenz",
+      "sourceFiles": [
+        "科布伦茨/图片/9553dec00b98a762a0fdb00596891f38.jpg"
+      ]
+    },
+    {
+      "id": "photo-061",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-061.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "heidelberg"
+      ],
+      "cityNames": [
+        "Heidelberg"
+      ],
+      "title": "Side streets",
+      "alt": "A narrow cobbled street with cafe tables and tall buildings.",
+      "sourceWidth": 4284,
+      "sourceHeight": 5712,
+      "fullSrc": "assets/travel/photos/photo-061.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "heidelberg"
+      ],
+      "cityLabel": "Heidelberg",
+      "sourceFiles": [
+        "海德堡/图片/2a2b4f5eb46e61ee3db9564559a13dec.JPG"
+      ]
+    },
+    {
+      "id": "photo-085",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-085.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "strasbourg"
+      ],
+      "cityNames": [
+        "Strasbourg"
+      ],
+      "title": "Canal-side color",
+      "alt": "Timber-framed buildings reflected in a quiet canal.",
+      "sourceWidth": 5712,
+      "sourceHeight": 4284,
+      "fullSrc": "assets/travel/photos/photo-085.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "strasbourg"
+      ],
+      "cityLabel": "Strasbourg",
+      "sourceFiles": [
+        "斯特拉斯堡/图片/c925a0bdc6b843ab01ada2bbd60fb4ab.JPG"
+      ]
+    },
+    {
+      "id": "photo-092",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-092.webp",
+      "width": 1419,
+      "height": 1800,
+      "cities": [
+        "basel"
+      ],
+      "cityNames": [
+        "Basel"
+      ],
+      "title": "A view from the bridge",
+      "alt": "A stone arch bridge and city buildings beside a river.",
+      "sourceWidth": 3024,
+      "sourceHeight": 3836,
+      "fullSrc": "assets/travel/photos/photo-092.webp",
+      "fullWidth": 1419,
+      "fullHeight": 1800,
+      "filterCities": [
+        "basel"
+      ],
+      "cityLabel": "Basel",
+      "sourceFiles": [
+        "巴塞尔/图片/498e965e3a09f3e2ba75da2378600069.jpg"
+      ]
+    },
+    {
+      "id": "photo-006",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-006.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "amsterdam"
+      ],
+      "cityNames": [
+        "Amsterdam"
+      ],
+      "title": "Streets in motion",
+      "alt": "A blue-and-white tram passing rows of historic city buildings.",
+      "sourceWidth": 5712,
+      "sourceHeight": 4284,
+      "fullSrc": "assets/travel/photos/photo-006.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "amsterdam"
+      ],
+      "cityLabel": "Amsterdam",
+      "sourceFiles": [
+        "阿姆斯特丹/图片/5e682972cbce79a1859d0142da1f7575.JPG"
+      ]
+    },
+    {
+      "id": "photo-008",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-008.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "amsterdam"
+      ],
+      "cityNames": [
+        "Amsterdam"
+      ],
+      "title": "By the harbor",
+      "alt": "A wooden sailing ship moored beside a waterfront.",
+      "sourceWidth": 5393,
+      "sourceHeight": 4045,
+      "fullSrc": "assets/travel/photos/photo-008.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "amsterdam"
+      ],
+      "cityLabel": "Amsterdam",
+      "sourceFiles": [
+        "阿姆斯特丹/图片/79bde5581183fa1dbcede94ee09d11af.jpg"
+      ]
+    },
+    {
+      "id": "photo-009",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-009.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "amsterdam"
+      ],
+      "cityNames": [
+        "Amsterdam"
+      ],
+      "title": "Canal-side views",
+      "alt": "Houseboats and small boats along a tree-lined canal.",
+      "sourceWidth": 5219,
+      "sourceHeight": 3914,
+      "fullSrc": "assets/travel/photos/photo-009.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "amsterdam"
+      ],
+      "cityLabel": "Amsterdam",
+      "sourceFiles": [
+        "阿姆斯特丹/图片/84d5ede5b4d21e0a5c4f467da098ed42.jpg"
+      ]
+    },
+    {
+      "id": "photo-015",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-015.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "amsterdam"
+      ],
+      "cityNames": [
+        "Amsterdam"
+      ],
+      "title": "A little light",
+      "alt": "Bright shafts of sunlight cutting through clouds over the water.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-015.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "amsterdam"
+      ],
+      "cityLabel": "Amsterdam",
+      "sourceFiles": [
+        "阿姆斯特丹/图片/d57607391068c18ef3bae54d942f592f.JPG"
+      ]
+    },
+    {
+      "id": "photo-030",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-030.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "cologne"
+      ],
+      "cityNames": [
+        "Cologne"
+      ],
+      "title": "City fountains",
+      "alt": "A carved stone fountain in a square with colorful buildings.",
+      "sourceWidth": 2318,
+      "sourceHeight": 3091,
+      "fullSrc": "assets/travel/photos/photo-030.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "cologne"
+      ],
+      "cityLabel": "Cologne",
+      "sourceFiles": [
+        "科隆/图片/62e81a89328b805677f7aa8d73e17f91.jpg"
+      ]
+    },
+    {
+      "id": "photo-039",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-039.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "cologne"
+      ],
+      "cityNames": [
+        "Cologne"
+      ],
+      "title": "Under the vaults",
+      "alt": "A long church aisle beneath high vaulted ceilings.",
+      "sourceWidth": 4003,
+      "sourceHeight": 5337,
+      "fullSrc": "assets/travel/photos/photo-039.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "cologne"
+      ],
+      "cityLabel": "Cologne",
+      "sourceFiles": [
+        "科隆/图片/b67e38cacd8fb9ff9d1c51edf5e5a811.jpg"
+      ]
+    },
+    {
+      "id": "photo-043",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-043.webp",
+      "width": 1036,
+      "height": 1800,
+      "cities": [
+        "cologne"
+      ],
+      "cityNames": [
+        "Cologne"
+      ],
+      "title": "Color in stone",
+      "alt": "A richly colored stained-glass window with small figures.",
+      "sourceWidth": 2282,
+      "sourceHeight": 3966,
+      "fullSrc": "assets/travel/photos/photo-043.webp",
+      "fullWidth": 1036,
+      "fullHeight": 1800,
+      "filterCities": [
+        "cologne"
+      ],
+      "cityLabel": "Cologne",
+      "sourceFiles": [
+        "科隆/图片/d2356ea1544bba7a10f26bcfcd631942.jpg"
+      ]
+    },
+    {
+      "id": "photo-047",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-047.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "cologne"
+      ],
+      "cityNames": [
+        "Cologne"
+      ],
+      "title": "A riverside walk",
+      "alt": "The side of a steel bridge beside a broad river.",
+      "sourceWidth": 3049,
+      "sourceHeight": 2286,
+      "fullSrc": "assets/travel/photos/photo-047.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "cologne"
+      ],
+      "cityLabel": "Cologne",
+      "sourceFiles": [
+        "科隆/图片/fc1d83fabff6dd77c10e76a13a4af77f.jpg"
+      ]
+    },
+    {
+      "id": "photo-049",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-049.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "koblenz"
+      ],
+      "cityNames": [
+        "Koblenz"
+      ],
+      "title": "Above the trees",
+      "alt": "Castle ruins on a wooded hill beneath a clear sky.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-049.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "koblenz"
+      ],
+      "cityLabel": "Koblenz",
+      "sourceFiles": [
+        "科布伦茨/图片/565412457f7ce42eba5a743ea4481de0.JPG"
+      ]
+    },
+    {
+      "id": "photo-052",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-052.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "koblenz"
+      ],
+      "cityNames": [
+        "Koblenz"
+      ],
+      "title": "A hillside village",
+      "alt": "A church and clustered houses below green terraced hills.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-052.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "koblenz"
+      ],
+      "cityLabel": "Koblenz",
+      "sourceFiles": [
+        "科布伦茨/图片/691b01cfe1f082fd26ec9744fd68b762.JPG"
+      ]
+    },
+    {
+      "id": "photo-056",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-056.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "koblenz"
+      ],
+      "cityNames": [
+        "Koblenz"
+      ],
+      "title": "Along the waterfront",
+      "alt": "A stone church beside the river and a passing boat.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-056.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "koblenz"
+      ],
+      "cityLabel": "Koblenz",
+      "sourceFiles": [
+        "科布伦茨/图片/ed7ed26cd4cd9bce965bcb2381b2ea3d.JPG"
+      ]
+    },
+    {
+      "id": "photo-058",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-058.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "heidelberg"
+      ],
+      "cityNames": [
+        "Heidelberg"
+      ],
+      "title": "Color along the way",
+      "alt": "A long pedestrian tunnel covered in colorful graffiti.",
+      "sourceWidth": 4096,
+      "sourceHeight": 3072,
+      "fullSrc": "assets/travel/photos/photo-058.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "heidelberg"
+      ],
+      "cityLabel": "Heidelberg",
+      "sourceFiles": [
+        "海德堡/图片/05f03dce68d80665eb31d34ef5df83e0.JPG"
+      ]
+    },
+    {
+      "id": "photo-059",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-059.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "heidelberg"
+      ],
+      "cityNames": [
+        "Heidelberg"
+      ],
+      "title": "Valley views",
+      "alt": "A hillside town, stone bridge and river framed by trees.",
+      "sourceWidth": 3024,
+      "sourceHeight": 4032,
+      "fullSrc": "assets/travel/photos/photo-059.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "heidelberg"
+      ],
+      "cityLabel": "Heidelberg",
+      "sourceFiles": [
+        "海德堡/图片/1d9b0ff9a8fb125482f0351f4ee2d741.HEIC"
+      ]
+    },
+    {
+      "id": "photo-066",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-066.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "heidelberg"
+      ],
+      "cityNames": [
+        "Heidelberg"
+      ],
+      "title": "After dark",
+      "alt": "Nighttime lights reflected in a river beneath an illuminated bridge.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-066.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "heidelberg"
+      ],
+      "cityLabel": "Heidelberg",
+      "sourceFiles": [
+        "海德堡/图片/89886b5c71a6d659f2b6402d82807f51.JPG"
+      ]
+    },
+    {
+      "id": "photo-075",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-075.webp",
+      "width": 1080,
+      "height": 1440,
+      "cities": [
+        "heidelberg"
+      ],
+      "cityNames": [
+        "Heidelberg"
+      ],
+      "title": "Little memories",
+      "alt": "Padlocks attached to a stone ledge beside the water.",
+      "sourceWidth": 1080,
+      "sourceHeight": 1440,
+      "fullSrc": "assets/travel/photos/photo-075.webp",
+      "fullWidth": 1080,
+      "fullHeight": 1440,
+      "filterCities": [
+        "heidelberg"
+      ],
+      "cityLabel": "Heidelberg",
+      "sourceFiles": [
+        "海德堡/图片/IMG_5138.jpg"
+      ]
+    },
+    {
+      "id": "photo-076",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-076.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "strasbourg"
+      ],
+      "cityNames": [
+        "Strasbourg"
+      ],
+      "title": "Look closer",
+      "alt": "A small carved animal beneath decorative stone tracery.",
+      "sourceWidth": 5712,
+      "sourceHeight": 4284,
+      "fullSrc": "assets/travel/photos/photo-076.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "strasbourg"
+      ],
+      "cityLabel": "Strasbourg",
+      "sourceFiles": [
+        "斯特拉斯堡/图片/091a3089504d5c1fa4edaed1f5490298.JPG"
+      ]
+    },
+    {
+      "id": "photo-080",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-080.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "strasbourg"
+      ],
+      "cityNames": [
+        "Strasbourg"
+      ],
+      "title": "A river walk",
+      "alt": "A church spire rising beyond riverside houses and trees.",
+      "sourceWidth": 3024,
+      "sourceHeight": 4032,
+      "fullSrc": "assets/travel/photos/photo-080.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "strasbourg"
+      ],
+      "cityLabel": "Strasbourg",
+      "sourceFiles": [
+        "斯特拉斯堡/图片/565412457f7ce42eba5a743ea4481de0.JPG"
+      ]
+    },
+    {
+      "id": "photo-082",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-082.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "strasbourg"
+      ],
+      "cityNames": [
+        "Strasbourg"
+      ],
+      "title": "Streets with character",
+      "alt": "Colorful timber-framed buildings beside an outdoor cafe.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-082.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "strasbourg"
+      ],
+      "cityLabel": "Strasbourg",
+      "sourceFiles": [
+        "斯特拉斯堡/图片/691b01cfe1f082fd26ec9744fd68b762.JPG"
+      ]
+    },
+    {
+      "id": "photo-083",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-083.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "strasbourg"
+      ],
+      "cityNames": [
+        "Strasbourg"
+      ],
+      "title": "Quiet inside",
+      "alt": "A vaulted church interior with a golden decorative apse.",
+      "sourceWidth": 4284,
+      "sourceHeight": 5712,
+      "fullSrc": "assets/travel/photos/photo-083.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "strasbourg"
+      ],
+      "cityLabel": "Strasbourg",
+      "sourceFiles": [
+        "斯特拉斯堡/图片/92875065caff2e415d6b7ac4162fcc20.JPG"
+      ]
+    },
+    {
+      "id": "photo-087",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-087.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "basel"
+      ],
+      "cityNames": [
+        "Basel"
+      ],
+      "title": "A facade in sunlight",
+      "alt": "Carved figures and decorative details on a pink stone facade.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-087.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "basel"
+      ],
+      "cityLabel": "Basel",
+      "sourceFiles": [
+        "巴塞尔/图片/0a3d2043b57edeff75886e9b447eae4c.JPG"
+      ]
+    },
+    {
+      "id": "photo-091",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-091.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "basel"
+      ],
+      "cityNames": [
+        "Basel"
+      ],
+      "title": "Quiet reflections",
+      "alt": "A low sun lighting buildings reflected in still water.",
+      "sourceWidth": 8064,
+      "sourceHeight": 6048,
+      "fullSrc": "assets/travel/photos/photo-091.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "basel"
+      ],
+      "cityLabel": "Basel",
+      "sourceFiles": [
+        "巴塞尔/图片/3b72b3daaad4a24c568dad5b4723b09a.JPG"
+      ]
+    },
+    {
+      "id": "photo-095",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-095.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "basel"
+      ],
+      "cityNames": [
+        "Basel"
+      ],
+      "title": "Small surprises",
+      "alt": "A colorful decorative figure fixed to the corner of a building.",
+      "sourceWidth": 3024,
+      "sourceHeight": 4032,
+      "fullSrc": "assets/travel/photos/photo-095.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "basel"
+      ],
+      "cityLabel": "Basel",
+      "sourceFiles": [
+        "巴塞尔/图片/9553dec00b98a762a0fdb00596891f38.JPG"
+      ]
+    },
+    {
+      "id": "photo-096",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-096.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "basel"
+      ],
+      "cityNames": [
+        "Basel"
+      ],
+      "title": "On the street",
+      "alt": "A green tram passing people and ornate city buildings.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-096.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "basel"
+      ],
+      "cityLabel": "Basel",
+      "sourceFiles": [
+        "巴塞尔/图片/996cd852a83a2c73213e92ca31708eb7.JPG"
+      ]
+    },
+    {
+      "id": "photo-105",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-105.webp",
+      "width": 1350,
+      "height": 1800,
+      "cities": [
+        "other"
+      ],
+      "cityNames": [
+        "Other"
+      ],
+      "title": "Between destinations",
+      "alt": "A large clock and rows of lights inside a modern transport terminal.",
+      "sourceWidth": 3024,
+      "sourceHeight": 4032,
+      "fullSrc": "assets/travel/photos/photo-105.webp",
+      "fullWidth": 1350,
+      "fullHeight": 1800,
+      "filterCities": [
+        "elsewhere"
+      ],
+      "cityLabel": "Along the way",
+      "sourceFiles": [
+        "其他/图片/84c950c67691e0d4f7041822f016cb86.JPG"
+      ]
+    },
+    {
+      "id": "photo-107",
+      "kind": "photo",
+      "src": "assets/travel/photos/photo-107.webp",
+      "width": 1800,
+      "height": 1350,
+      "cities": [
+        "other"
+      ],
+      "cityNames": [
+        "Other"
+      ],
+      "title": "Above the clouds",
+      "alt": "An aircraft wing beneath a blue sky and orange sunset horizon.",
+      "sourceWidth": 4032,
+      "sourceHeight": 3024,
+      "fullSrc": "assets/travel/photos/photo-107.webp",
+      "fullWidth": 1800,
+      "fullHeight": 1350,
+      "filterCities": [
+        "elsewhere"
+      ],
+      "cityLabel": "Along the way",
+      "sourceFiles": [
+        "其他/图片/IMG_5066.HEIC"
+      ]
+    }
+  ],
+  "photos": 31
+}
